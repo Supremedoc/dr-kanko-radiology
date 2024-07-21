@@ -1,0 +1,114 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .logo img {
+            max-width: 100px;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .section p {
+            color: #ccc;
+        }
+        .service {
+            margin-bottom: 20px;
+        }
+        .service h3 {
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        .service p {
+            color: #bbb;
+        }
+        .service p.italic {
+            font-style: italic;
+        }
+        .service img {
+            width: 50%;
+            height: 40%;
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: rgba(202, 4, 4, 0.1);
+        }
+        .hours {
+            background-color: #111;
+            padding: 20px;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        footer .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        footer .footer-section {
+            margin: 10px;
+        }
+        footer .footer-section h4 {
+            margin-bottom: 10px;
+        }
+        footer .footer-section p, footer .footer-section a {
+            color: white;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+        footer .footer-section a:hover {
+            text-decoration: underline;
+        }
+        footer .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        
